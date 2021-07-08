@@ -75590,8 +75590,8 @@ function frame_callback(a,b,c,width,height,stride1,stride2)
 
 
 (function(root){
-        console.log("ready to load");
-    
+
+
         var open_decoder = Module.cwrap('open_decoder', 'number', null);
         var close_decoder = Module.cwrap('close_decoder', null, ['number']);
         var decode_h264buffer = Module.cwrap('decode_h264buffer', 'number', ['number','array','number']);
